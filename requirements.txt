@@ -1,0 +1,13 @@
+# Versions used for the delivered Windows x64 / Python 3.14 build.
+# A CPU-only wheel is intentional: no NVIDIA driver or CUDA install is needed.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0+cpu
+numpy==2.5.2
+PyQt6==6.11.0
+PyQt6-Qt6==6.11.1
+PyQt6-sip==13.12.0
+matplotlib==3.11.1
+
+# EXE packaging tools
+pyinstaller==6.22.2
+pyinstaller-hooks-contrib==2026.7

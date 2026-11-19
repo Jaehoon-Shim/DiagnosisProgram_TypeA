@@ -1,0 +1,28 @@
+SEED Fault Diagnosis - third-party components
+============================================
+
+This application uses the following third-party projects. Their copyrights
+and licenses remain with their respective owners.
+
+Python: Python Software Foundation License
+  https://docs.python.org/3/license.html
+NumPy: BSD 3-Clause License; bundled native libraries have additional notices
+  https://numpy.org/doc/stable/license.html
+PyTorch: BSD-style license; bundled dependencies have additional licenses
+  https://github.com/pytorch/pytorch/blob/main/LICENSE
+Matplotlib: Matplotlib License (based on the PSF License)
+  https://matplotlib.org/stable/project/license.html
+PyQt6: GNU GPL v3 or Riverbank commercial license
+  https://www.riverbankcomputing.com/software/pyqt/intro
+Qt 6: LGPL v3, GPL, or commercial terms, depending on the component
+  https://www.qt.io/licensing/
+PyInstaller: GPL v2 with the special distribution exception
+  https://pyinstaller.org/en/stable/license.html
+
+PyQt6 licensing is relevant if you redistribute the application outside your
+own environment. Select the licensing terms appropriate to that distribution.
+The supplied .pt model, scaler, and sample data are user-provided/reconstructed
+task assets, not third-party Python package examples.
+
+Build package versions are recorded in requirements.txt. The source package permits editing and rebuilding the
+application; each dependency retains its own license.
